@@ -1,0 +1,96 @@
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.container-fluid{
+	padding: 0;
+}
+
+#topNav{
+	margin: 0; 
+	padding: 0;
+
+
+}
+
+.row-eq-height{
+	display: flex;
+}
+
+img.logo{
+	
+}
+
+#LeftCol{
+	background-color: #DDDDDD; 
+	margin: 0; 
+	padding: 1%;
+}
+
+
+#MidCol p{
+	margin-left: 2%;
+
+}
+
+.navbar-text{
+	margin: 10px;
+}
+
+.panel{
+	margin:2px;
+}
+
+.row{
+	margin: 2px;
+}
+
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.search-container {
+  float: right;
+}
+
+.navbar input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.navbar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.navbar .search-container button:hover {
+  background: #ccc;
+}
+
+.like{
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+.unlike{
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+/* Set black background color, white text and some padding */
