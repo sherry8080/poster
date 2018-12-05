@@ -2,13 +2,12 @@
 session_start();
 include_once("db.php");
 if(isset($_POST['btn-login'])) {
-
-	$user_email = $_POST['user_email'];
-	$user_password = $_POST['password'];
+	$user_name = $_POST['user_name'];
+	$user_password = md5($_POST['password']);
 	$_SESSION['pw'] = $user_password;
-	$_SESSION['email'] = $user_email;
+	$_SESSION['userName'] = $user_name;
 	
-	$sql = "SELECT username, type, userid FROM user WHERE email='$user_email' AND psw='$user_password' ";
+	$sql = "SELECT username, type, userid FROM user WHERE username='$user_name' AND psw='$user_password' ";
 	$resultset = mysqli_query($con, $sql) or die("database error:". mysqli_error($con));
 	$row = mysqli_fetch_assoc($resultset);		
 	if(empty($row)){	

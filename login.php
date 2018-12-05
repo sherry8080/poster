@@ -26,8 +26,7 @@ $notice = $_GET['login'];
 			<div id="error">
 			</div>
 			<div class="form-group">
-				<input type="email" class="form-control" placeholder="Email address" name="user_email" id="user_email" />
-				<span id="check-e"></span>
+				<input type="text" class="form-control" placeholder="Username" name="user_name" id="user_name" />
 			</div>
 			<div class="form-group">
 				<input type="password" class="form-control" placeholder="Password" name="password" id="password" />

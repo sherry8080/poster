@@ -441,7 +441,7 @@ if(empty($_SESSION["username"])||empty($_SESSION["pw"])){
   </div>
 
   <footer class="container-fluid text-center">
-    <p>Footer Text</p>
+    <p>2018 Web Programming 6314</p>
   </footer>
 
 </body>

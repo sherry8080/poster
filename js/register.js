@@ -50,7 +50,7 @@ submitHandler: submitForm
      success :  function(response) {      
       if(response==1){         
         $("#error").fadeIn(1000, function(){
-          $("#error").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; Sorry email already taken !</div>');           
+          $("#error").html('<div class="alert alert-danger"> <span class="glyphicon glyphicon-info-sign"></span> &nbsp; Sorry username already taken !</div>');           
           $("#btn-submit").html('<span class="glyphicon glyphicon-log-in"></span> &nbsp; Create Account');          
         });                    
       } else if(response=="registered"){         

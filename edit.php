@@ -16,6 +16,7 @@ if($target_file_basename == ""){
     echo($sql);
     $result = mysqli_query($con,$sql);
 }else{
+    move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_dir.$target_file_basename);
     $sql="  UPDATE poster 
             SET postername = '$poster_name', posterurl = '".$target_dir.$target_file_basename."', 
             location = '$poster_loc', description = '$poster_desc' where posterid = '$poster_id'";

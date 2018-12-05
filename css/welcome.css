@@ -2,16 +2,21 @@
 
 footer {
     background-color: #777;
-    padding: 10px;
     text-align: center;
     color: white;
+    height: 60px;
 }
+
+footer p{
+  margin-top: 15px; 
+}
+
 
 .container-fluid{
 	padding: 0;
 }
 
-#topNav{
+#topNav{s
 	margin: 0; 
 	padding: 0;
 

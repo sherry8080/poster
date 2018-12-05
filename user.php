@@ -83,7 +83,9 @@ $notice = $_GET['notice'];
       <div class="row">
         <div class="page-header">
           <h1><?if($notice == "uploadSuccess"){echo "Upload Successful!!!";}
-                else if($notice == "misspic"){echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed!!!";}?></h1>
+                else if($notice == "misspic"){echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed!!!";}
+                else if($notice == "notimg"){echo "Sorry, please upload an image file!!!";}
+                else if($notice == "errorupload"){echo "Sorry, upload error!!!";}?></h1>
           <h1 id = "myupload" >My Uploaded Poster</h1>
         </div>
       </div>
